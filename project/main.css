@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #F5F5FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .input-box {
+  width: 606px;
+  height: 860px;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 25px;
+}
+
+.container .input-box .icon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #E6E6E6;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 82%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.container .input-box .icon a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .input-box .icon a img {
+  opacity: 0.4;
+}
+
+.container .input-box p {
+  margin-top: 55px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #151534;
+  margin-bottom: 45px;
+}
+
+.container .input-box input {
+  width: 418px;
+  height: 45px;
+  border: 0px;
+  border-bottom: 1px solid rgba(21, 21, 52, 0.6);
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+  color: #151534;
+  margin-bottom: 45px;
+}
+
+.container .input-box input::-webkit-input-placeholder {
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box input:-ms-input-placeholder {
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box input::-ms-input-placeholder {
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box input::placeholder {
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box .value {
+  width: 418px;
+  height: 45px;
+  margin-bottom: 45px;
+}
+
+.container .input-box .value select {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(21, 21, 52, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.container .input-box textarea {
+  width: 476px;
+  height: 159px;
+  resize: none;
+  border-color: #E6E6E6;
+  border-radius: 10px;
+  margin-bottom: 45px;
+  padding: 20px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.container .input-box textarea::-webkit-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box textarea:-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box textarea::-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box textarea::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(21, 21, 52, 0.6);
+}
+
+.container .input-box button {
+  width: 475px;
+  height: 72px;
+  border-radius: 36px;
+  background-color: #151534;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
